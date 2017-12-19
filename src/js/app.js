@@ -1,5 +1,5 @@
 const app = {
-    sayHi: () => {
+    hi: () => {
         console.log('hi');
     }
 };

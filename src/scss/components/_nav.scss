@@ -1,0 +1,29 @@
+// COMPONENTS/NAV
+
+.nav {
+    .menu__container {
+        position: absolute;
+        margin-top: -500px;
+        height: 500px;
+        width: 100%;
+        background-color: $pink;
+        opacity: 0;
+        transition: all .33s ease;
+
+        &.open {
+            margin-top: 0px;
+            opacity: 1;
+        }
+    }
+
+    .menu__list {
+        margin: 0;
+        list-style-type: none;
+    }
+
+    .menu__item {
+        color: $white;
+        font-size: 50px;
+        text-transform: lowercase;
+    }
+}
