@@ -1,5 +1,29 @@
 // PAGES/HOME
 
 .home {
-    background-color: $purple;
+    .container {
+        max-width: 1200px;
+        padding: 50px;
+    }
+
+    p { margin: 0px; }
+
+    .greetings {
+        font-size: 67px;
+        color: $pink;
+    }
+
+    .name,
+    .surname {
+        font-size: 180px;
+        font-family: $archivo-black;
+        color: $white;
+    }
+
+    .surname { margin-top: -40px; }
+
+    .competences {
+        font-size: 65px;
+        color: $pink;
+    }
 }
