@@ -1,7 +1,3 @@
-const app = {
-    hi: () => {
-        console.log('hi');
-    }
-};
+const header = require('./components/header');
 
-module.exports = app;
+header.init();
