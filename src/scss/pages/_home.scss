@@ -9,20 +9,26 @@
     p { margin: 0px; }
 
     .greetings {
+        margin-left: -5px;
         font-size: 67px;
         color: $pink;
     }
 
     .name,
     .surname {
+        margin-left: -13px;
         font-size: 180px;
         font-family: $archivo-black;
         color: $white;
     }
 
+    .name { margin-top: -20px; }
+
     .surname { margin-top: -40px; }
 
     .competences {
+        margin-top: -15px;
+        margin-left: -6px;
         font-size: 65px;
         color: $pink;
     }
