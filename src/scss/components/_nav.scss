@@ -18,9 +18,15 @@
     }
 
     .menu__item {
-        color: $white;
-        font-size: 70px;
-        text-transform: lowercase;
+        a,
+        a:hover {
+            color: $white;
+            font-size: 70px;
+            text-transform: lowercase;
+            text-decoration: none;
+
+            &:hover { text-decoration: underline; }
+        }
     }
 
     .menu__button {
@@ -31,13 +37,12 @@
         height: 80px;
         background-color: $white;
         text-align: center;
-        transition: all .33s ease;
     }
 
     .menu__arrow {
         display: inline-block;
         font-size: 80px;
-        transform: rotate(0.5turn);
+        transform: rotate(0turn);
     }
 
     &.open {
@@ -47,7 +52,7 @@
 
         .menu__arrow {
             margin-top: -10px;
-            transform: rotate(0turn);
+            transform: rotate(0.5turn);
         }
     }
 }
