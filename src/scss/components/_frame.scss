@@ -3,8 +3,16 @@
 .frame {
     border: 20px solid $black;
     background: $yellow;
-    padding: 10px;
+    padding: 10px 25px;
     height: calc(100% - 60px);
 
     &:nth-child(4n) { background-color: red; }
+}
+
+.frame__text {
+    transform: rotate(90deg);
+    font-size: 50px;
+    font-family: $archivo-black;
+    display: inline-block;
+    color: $black;
 }
