@@ -3,8 +3,19 @@
 .about {
     background-color: $grey;
 
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
     .competences,
     .cv {
         width: 50%;
+        float: left;
+        height: 100%;
+    }
+
+    .competences__title {
+        font-size: 70px;
     }
 }
