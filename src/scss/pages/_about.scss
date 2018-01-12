@@ -3,6 +3,24 @@
 .about {
     background-color: $grey;
 
+    .competences__title {
+        margin-bottom: 10px;
+        font-size: 90px;
+        font-family: $archivo-black;
+        color: $black;
+    }
+
+    .competences__list {
+        list-style-type: none;
+        padding-left: 0px;
+
+        .competences__list-element {
+            font-size: 50px;
+            letter-spacing: 2px;
+            color: $black;
+        }
+    }
+
     .container {
         width: 1200px;
         margin: 0 auto;
@@ -13,9 +31,5 @@
         width: 50%;
         float: left;
         height: 100%;
-    }
-
-    .competences__title {
-        font-size: 70px;
     }
 }
