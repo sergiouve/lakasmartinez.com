@@ -3,6 +3,11 @@
 .about {
     background-color: $grey;
 
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
     .competences__title {
         margin-bottom: 10px;
         font-size: 90px;
@@ -19,11 +24,6 @@
             letter-spacing: 2px;
             color: $black;
         }
-    }
-
-    .container {
-        width: 1200px;
-        margin: 0 auto;
     }
 
     .competences,

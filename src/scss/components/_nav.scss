@@ -28,6 +28,13 @@
 
             &:hover { text-decoration: underline; }
         }
+
+        &.selected {
+            a,
+            a:hover {
+                text-decoration: line-through;
+            }
+        }
     }
 
     .menu__button {
