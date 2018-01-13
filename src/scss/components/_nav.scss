@@ -8,6 +8,7 @@
         width: 100%;
         background-color: $pink;
         transition: all .33s ease;
+        z-index: 99;
     }
 
     .menu__list {

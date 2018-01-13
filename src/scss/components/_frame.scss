@@ -6,13 +6,24 @@
     padding: 10px 25px;
     height: calc(100% - 60px);
 
-    &:nth-child(4n) { background-color: red; }
+    &:hover {
+        background-color: $purple;
+        color: $white !important;
+    }
 }
 
 .frame__text {
-    transform: rotate(90deg);
-    font-size: 50px;
-    font-family: $archivo-black;
     display: inline-block;
+    height: 100%;
+    font-size: 90px;
+    font-family: $archivo-black;
+    line-height: 65px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-decoration: none;
+    text-align: center;
     color: $black;
+    transform: rotate(180deg);
+
+    &:hover { color: $white; }
 }
